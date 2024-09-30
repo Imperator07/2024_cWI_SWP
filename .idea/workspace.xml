@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa5eb736-bb48-4ad2-99a2-a6d8b095e8ef" name="Changes" comment="project setup">
+    <list default="true" id="aa5eb736-bb48-4ad2-99a2-a6d8b095e8ef" name="Changes" comment="test change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/001_Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/001_Observer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001_Observer/out/production/001_Observer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/001_Observer/out/production/001_Observer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001_Observer/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/001_Observer/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SWP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SWP" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,6 +93,8 @@
       <workItem from="1727703709136" duration="12000" />
       <workItem from="1727703729309" duration="130000" />
       <workItem from="1727704010858" duration="76000" />
+      <workItem from="1727704092159" duration="146000" />
+      <workItem from="1727704387238" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="change hirachy">
       <option name="closed" value="true" />
@@ -105,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727703820433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test change">
+      <option name="closed" value="true" />
+      <created>1727704178331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727704178331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +138,7 @@
     <MESSAGE value="change hirachy" />
     <MESSAGE value="project hirachy changed" />
     <MESSAGE value="project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="project setup" />
+    <MESSAGE value="test change" />
+    <option name="LAST_COMMIT_MESSAGE" value="test change" />
   </component>
 </project>
