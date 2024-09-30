@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a1f5bad-0e0f-46e8-8a48-6d9d9cef1f24" name="Changes" comment="setup project">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../001_Observer_Pattern/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/001_Observer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/001_Observer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +20,12 @@
     &quot;assignee&quot;: &quot;Imperator07&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Imperator07/2024_cWI_SWP.git",
-    "accountId": "46cdf018-ff59-4dd8-8517-6dd4d0d83361"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Imperator07/2024_cWI_SWP.git&quot;,
+    &quot;accountId&quot;: &quot;46cdf018-ff59-4dd8-8517-6dd4d0d83361&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -36,11 +36,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/SWP",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,6 +64,7 @@
       <updated>1727703561311</updated>
       <workItem from="1727703562342" duration="122000" />
       <workItem from="1727703693110" duration="15000" />
+      <workItem from="1727703861349" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <option name="closed" value="true" />
@@ -80,5 +83,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup project" />
     <option name="LAST_COMMIT_MESSAGE" value="setup project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

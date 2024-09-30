@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        var newAgency = new NewsAgency("AAA");
+        var newAgency = new NewsAgency("APA");
 
         var newsChannel = new NewsChannel("raspi.wabloweb.uk");
 
