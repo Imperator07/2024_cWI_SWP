@@ -5,15 +5,26 @@ public class Main {
 
     String name ;
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception{
 
-        var newAgency = new NewsAgency("APA");
+        //news Agency
+        var apa = new NewsAgency("APA");
+        var reuters = new NewsAgency("Reuters");
 
-        var newsChannel = new NewsChannel("raspi.wabloweb.uk");
+        //news Channels
+        var wabloweb = new NewsChannel("raspi.wabloweb.uk");
+        var nzz = new NewsChannel("nzz");
+        var nytimes = new NewsChannel("New York Times");
 
-        System.out.println("New NewsAgency: " + newAgency + " has been created" );
+        apa.subscribe(wabloweb);
+        apa.subscribe(nytimes);
 
-        System.out.println("New NewsChannel: " + newsChannel + " has been created" );
+        reuters.subscribe(nzz);
+        reuters.subscribe(nytimes);
+
+        //broadcast news
+        apa.broadcast("Auf der Suche nach der nächsten Regierung!");
+        reuters.broadcast("Harris campaign raises $55 mln over two weekend events,  campaign official says");
 
     }
 

@@ -6,24 +6,32 @@ import java.util.List;
 public class NewsAgency {
 
     private final String name;
-    private final List<NewsChannel> newsChannelList;
+    private final List<NewsChannel> channels;
 
     public NewsAgency(String name) {
 
         this.name= name;
-
-        this.newsChannelList = new ArrayList<NewsChannel>();
-
+        this.channels = new ArrayList<>();
     }
 
-    public void registerNewsChannel(NewsChannel newsChannel) {
-
-
-
+    public void subscribe(NewsChannel channel)
+    {
+        System.out.println(channel + " has subscribed to " + this);
+        this.channels.add(channel);
     }
-    public void broadcastMessage(String message) {
 
+    public void unsubscribe(NewsChannel channel)
+    {
+        this.channels.remove(channel);
+    }
 
+    public void broadcast(String news)
+    {
+        System.out.println(this + " broadcasts " + news);
+        for(NewsChannel channel : channels)
+        {
+            channel.notify(news);
+        }
     }
 
     @Override
